@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
     int m;
     cin >> m;
@@ -10,12 +11,14 @@ int main(){
     int b = 1;
     int Sig;
 
-    while (a < m){
-        
+    while (a < m)
+    {
+
         cout << b << " ";
         Sig = a + b;
-        if(Sig > m){
-        break;
+        if (Sig > m)
+        {
+            break;
         }
         a = b;
         b = Sig;

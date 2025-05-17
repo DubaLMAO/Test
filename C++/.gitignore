@@ -1,0 +1,3 @@
+# Ignorar archivos .exe y .exec dentro de la carpeta bin/
+*.exe
+*.exec
