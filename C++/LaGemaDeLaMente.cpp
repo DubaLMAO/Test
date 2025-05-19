@@ -16,7 +16,6 @@ void gemasEncontradas(int &n, int &gema, const vector<int> &gems){
     
 }
 
-
 int main(){
     int n;
     cin >> n;
